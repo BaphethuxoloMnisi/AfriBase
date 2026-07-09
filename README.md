@@ -114,8 +114,37 @@ This project demonstrates proficiency in:
 - Responsive web development
 
 ## Screenshots
+Admin Artifacts Dashboard (CRUD Operations)
+<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/d9aef77a-fd22-4f37-8e92-bb5dc77806ad" />
+<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/7b07b41a-547f-4917-b059-dc3d1d907a7c" />
 
-Add screenshots of the application here.
+
+Adding new artifacts 
+<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/c0635db3-15fb-4deb-b221-355f7ff51c7f" />
+<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/8a88fa2a-d0dd-4285-b4aa-8219ad0e266c" />
+
+
+Artifacts Deteils
+<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/61d9997c-02e6-4d9e-8eea-d99da1fe8a90" />
+
+Edit Artifact Details Screen
+<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/d017f1b1-5374-495b-a900-19b9f09b9024" />
+
+Delete Artifact Screen
+<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/a8ceec97-6d0c-4d37-8c0f-4b7c535716b3" />
+
+Artifacts Screen
+<img width="1794" height="1382" alt="image" src="https://github.com/user-attachments/assets/b2a87092-b36b-4111-8f69-bbff197cd727" />
+
+Bidding Screen
+<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/15eee5b8-132a-4d8e-abc0-da0f53ee15fd" />
+
+Bidding Dashboard (Amdin)
+<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/2aa72654-f821-4916-9bdb-0efc228f188c" />
+
+Client Account
+<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/365c3624-7fb8-4e9f-ac4b-faef32609525" />
+
 
 ## Author
 
