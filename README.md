@@ -152,7 +152,6 @@ Client Account
 
 GitHub: https://github.com/BaphethuxoloMnisi
 
-LinkedIn: https://linkedin.com/in/baphethuxolo-mnisi
 
 ---
 
