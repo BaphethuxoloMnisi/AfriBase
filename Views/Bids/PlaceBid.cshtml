@@ -1,0 +1,43 @@
+﻿@model ExpenseTracker2.Models.BidViewModel
+@{
+    ViewData["Title"] = "Place a Bid";
+}
+
+<h2>Place a Bid for Artifact #@Model.ArtworkId</h2>
+
+<form asp-action="SubmitBid" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="ArtworkId" />
+
+    <div class="form-group">
+        <label asp-for="FullName"></label>
+        <input asp-for="FullName" class="form-control" />
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Address"></label>
+        <input asp-for="Address" class="form-control" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PhoneNumber"></label>
+        <input asp-for="PhoneNumber" class="form-control" />
+        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BidAmount"></label>
+        <input asp-for="BidAmount" class="form-control" />
+        <span asp-validation-for="BidAmount" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit Bid</button>
+</form>

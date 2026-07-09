@@ -1,0 +1,33 @@
+﻿
+@using ExpenseTracker2.Models
+@model List<Bid>
+
+@{
+    ViewData["Title"] = "Bidding Dashboard";
+}
+
+<h2>Bidding Dashboard</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Artwork ID</th>
+            <th>Bid Amount</th>
+            <th>Timestamp</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var bid in Model)
+        {
+            <tr>
+                <td>@bid.FullName</td>
+                <td>@bid.Email</td>
+                <td>@bid.ArtworkId</td>
+                <td>R@bid.Amount</td>
+                <td>@bid.Timestamp.ToString("g")</td>
+            </tr>
+        }
+    </tbody>
+</table>

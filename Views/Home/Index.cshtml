@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-4">
+    <div id="artifactCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/afribase1.png" class="d-block w-100 rounded" alt="Welcome Slide" width="900" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/art3tripod-4709399_960_720.png" class="d-block w-100 rounded" alt="Discover Slide" width="900" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/afribase4.jpg" class="d-block w-100 rounded" alt="Auction Slide" width="900" height="500">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#artifactCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#artifactCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="text-center">
+        <h1 class="display-5 fw-bold">Explore the Stories Behind Ancient Wonders</h1>
+        <p class="lead">Join our community and experience the magic of history.</p>
+        <div class="mt-4">
+            <a class="btn btn-primary btn-lg me-3" asp-controller="Account" asp-action="Login">Login</a>
+            <a class="btn btn-success btn-lg" asp-controller="Account" asp-action="Register">Sign Up</a>
+        </div>
+    </div>
+</div>

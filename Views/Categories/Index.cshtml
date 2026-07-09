@@ -1,0 +1,102 @@
+﻿@{
+    ViewData["Title"] = "Categories";
+}
+
+<!-- Fonts & Styles -->
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+    #font-face {
+        font-family: 'Africola';
+        src: url('/fonts/Africola.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    body {
+        font-family: 'Ubuntu', sans-serif;
+        background: url('/images/tribal.png') repeat;
+        background-color: #fffaf0;
+        color: #2c2c2c;
+    }
+
+    .african-heading {
+        font-family: 'Africola', sans-serif;
+        color: #d97706;
+        font-size: 2rem;
+        border-bottom: 4px solid #14532d;
+        display: inline-block;
+        padding-bottom: 6px;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+    }
+
+    .category-card {
+        background-color: #fefce8;
+        border: 2px solid #78350f;
+        border-radius: 12px;
+        padding: 25px;
+        box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1);
+        height: 100%;
+    }
+
+        .category-card h5 {
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: bold;
+            font-size: 1.3rem;
+            color: #78350f;
+            margin-bottom: 10px;
+        }
+
+        .category-card p {
+            font-size: 1.1rem;
+            color: #374151;
+        }
+</style>
+
+<!-- Content -->
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="african-heading">Categories</h1>
+        <p class="lead">Explore our diverse artifact categories that span eras, cultures, and craftsmanship.</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="category-card">
+                <h5>Ancient Civilizations</h5>
+                <p>Artifacts and relics from ancient Egypt, Greece, and Rome, showcasing early human history and culture.</p>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="category-card">
+                <h5>Medieval Period</h5>
+                <p>Swords, armor, manuscripts, and other artifacts from the Middle Ages, reflecting medieval life and warfare.</p>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="category-card">
+                <h5>Modern History</h5>
+                <p>Items from the Renaissance to early 20th century, including revolutionary tools, artwork, and war memorabilia.</p>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="category-card">
+                <h5>Rare Coins</h5>
+                <p>Valuable and historic coins from various empires and civilizations, highlighting economic history.</p>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="category-card">
+                <h5>Pottery</h5>
+                <p>Ancient and medieval pottery pieces, bowls, and ceramics representing cultural craftsmanship.</p>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="category-card">
+                <h5>Metals</h5>
+                <p>Historical metal artifacts such as tools, weapons, and ceremonial objects forged by early civilizations.</p>
+            </div>
+        </div>
+    </div>
+</div>

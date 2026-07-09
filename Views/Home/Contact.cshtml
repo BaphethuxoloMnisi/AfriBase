@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+<!-- Fonts & Styles -->
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+    #font-face {
+        font-family: 'Africola';
+        src: url('/fonts/Africola.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    body {
+        font-family: 'Ubuntu', sans-serif;
+        background: url('/images/tribal.png') repeat;
+        background-color: #fffaf0;
+        color: #2c2c2c;
+    }
+
+    .african-heading {
+        font-family: 'Africola', sans-serif;
+        color: #d97706;
+        font-size: 2rem;
+        border-bottom: 4px solid #14532d;
+        display: inline-block;
+        padding-bottom: 6px;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+    }
+
+    .contact-form {
+        background-color: #fefce8;
+        border: 2px solid #78350f;
+        border-radius: 12px;
+        padding: 30px;
+        box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-label {
+        font-weight: 600;
+        color: #4b5563;
+    }
+
+    .form-control {
+        border: 2px solid #78350f;
+        border-radius: 8px;
+        padding: 10px;
+    }
+
+    .btn-primary {
+        background-color: #78350f;
+        border-color: #78350f;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+        .btn-primary:hover {
+            background-color: #92400e;
+            border-color: #92400e;
+        }
+</style>
+
+<!-- Content -->
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="african-heading">Get in Touch</h1>
+        <p class="lead">We'd love to hear from you — whether it's feedback, inquiries, or just a hello!</p>
+    </div>
+
+    <form class="row g-3 contact-form">
+        <div class="col-md-6">
+            <label for="inputName" class="form-label">Name</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Your Name">
+        </div>
+        <div class="col-md-6">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="your@email.com">
+        </div>
+        <div class="col-12">
+            <label for="inputMessage" class="form-label">Message</label>
+            <textarea class="form-control" id="inputMessage" rows="4" placeholder="Type your message here..."></textarea>
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+        </div>
+    </form>
+</div>

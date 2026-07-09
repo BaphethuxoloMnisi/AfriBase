@@ -1,0 +1,96 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+
+<!-- Fonts & Styles -->
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+    #font-face {
+        font-family: 'Africola';
+        src: url('/fonts/Africola.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    body {
+        font-family: 'Ubuntu', sans-serif;
+        background: url('/images/tribal.png') repeat;
+        background-color: #fffaf0;
+        color: #2c2c2c;
+    }
+
+    .african-heading {
+        font-family: 'Africola', sans-serif;
+        color: #d97706;
+        font-size: 2rem;
+        border-bottom: 4px solid #14532d;
+        display: inline-block;
+        padding-bottom: 6px;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+    }
+
+    .lead {
+        color: #4b5563;
+        font-weight: 500;
+    }
+
+    .african-section {
+        background-color: #fefce8;
+        border: 2px solid #78350f;
+        border-radius: 12px;
+        padding: 25px;
+        box-shadow: 6px 6px 12px rgba(0,0,0,0.1);
+        margin-bottom: 30px;
+    }
+
+        .african-section img {
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 3px solid #1c1917;
+        }
+
+    h3 {
+        font-size: 1.5rem;
+        margin-top: 15px;
+    }
+
+    p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+</style>
+
+<!-- Content -->
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="african-heading">About Our Gallery</h1>
+        <p class="lead">Preserving history. Celebrating culture. Inspiring generations.</p>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-6">
+            <div class="african-section">
+                <img src="/images/art1ai-generated-7883788_640.png" class="img-fluid mb-4" alt="Our Mission">
+                <h3 class="african-heading">Our Mission</h3>
+                <p>
+                    At Artifacts Gallery, we strive to revive the heartbeat of African history. Through preserving and presenting ancient relics,
+                    we aim to illuminate the stories of forgotten civilizations, inspire cultural pride, and connect people with the roots of humanity.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="african-section">
+                <img src="/images/afribase2.jpg" class="img-fluid mb-4" alt="Our Vision">
+                <h3 class="african-heading">Our Vision</h3>
+                <p>
+                    To become a cultural bridge between ancient traditions and the modern world — where every artifact tells a story,
+                    and every visitor leaves with a deeper appreciation for Africa’s timeless wisdom and vibrant heritage.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
